@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Alex Johnson
+title: Ryan Pégoud
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Ryan
+last_name: Pégoud
 
 # Pronouns (optional)
-pronouns: he/him
+# pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: ~
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,80 +23,94 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Recent Graduate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University College London
+    url: https://www.ucl.ac.uk/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:ryan.pegoud.24@ucl.ac.uk'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/Ryan_pgd
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/RPegoud
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/ryan-pegoud
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/citations?user=alexjohnson
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
+  - Natural Language Processing
   - Reinforcement Learning
-  - AI Ethics
+  - Multi-Agent Systems
+  - GPU Programming
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: MSc Computational Statistics and Machine Learning
+    institution: University College London
+    date_start: 2024-09-28
+    date_end: 2025-09-29
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+      Thesis on __Memory Augmentation for Agentic Language Models__. Supervised by Prof. Tim Rocktäschel.
+      Yearly Average: __78.5% (_Distinction_)__
     button:
       text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
+      url: 'https://drive.google.com/file/d/1tEygRk07D0c2e60-5I3YTscNJVZCATp-/view?usp=sharing'
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
+  - area: MEng Computer Engineering
+    institution: EPF Engineering School
+    date_start: 2019-03-01
+    date_end: 2024-06-29
     summary: |
-      GPA: 3.9/4.0
+      Thesis on __Time Series based anomaly detection for fleet connectivity__ at BMW Group.
+      Yearly Average: __84.6% (_Distinction_)__
 
-      Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
-    date_end: ''
+  - position: Module Leader, Lecturer and Pedagogical Tutor
+    company_name: EPF Engineering School
+    # company_url: 'https://www.bmw.fr/fr/accueil.html'
+    # company_logo: 'org-bmw'
+    date_start: 2023-09-01
+    date_end: '2024-06-01'
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      - **As Lecturer** (09/2023 – 01/2024): Designed and delivered a new **MSc-level NLP module** for **30 students**, creating the curriculum from scratch and **managing all lectures, assignments, and exams**.
+      - **As Tutor** (01/2024 – 06/2024): Mentored an MSc student through their thesis on **Retrieval-Augmented Generation** (RAG) for helicopter certification, in partnership with **Airbus Helicopter**.
+
+  - position: Data Scientist Intern
+    company_name: BMW Group
+    company_url: 'https://www.bmw.fr/fr/accueil.html'
+    company_logo: 'org-bmw'
+    date_start: 2023-02-01
+    date_end: '2023-08-01'
+    summary: |2-
+      Development of an __anomaly detection system__ based on time-series data from BMW cars. Deployed a _real-time_, _explainable_ and _quantifiable_ solution _at the scale of the BMW fleet_ with __PySpark__ and __AWS__, replacing a low-performing LightGBM model.
+ 
+  - position: Data Scientist Intern
+    company_name: CEWE
+    company_url: 'https://www.cewe.fr/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2021-07-01
+    date_end: 2022-01-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Development of a __multilingual BERT model__ for text classification achieving a _90% F1-score across 14 classes and 3 languages_. Built an __active learning platform__ with __Dash__ and implemented temperature scaling to ensure the model’s long-term sustainability and calibration.
+
+  - position: Data Scientist Intern
+    company_name: CEWE
+    company_url: 'https://www.cewe.fr/'
+    company_logo: ''
+    date_start: 2022-06-01
+    date_end: 2022-07-30
+    summary: |
+      Shipped two projects: an __aspect-based sentiment analysis pipeline__ with __BERT__ and a __time series model__ using __NeuralProphet__ to forecast customer service traffic.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -143,27 +157,15 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Outstanding Paper Award
+    url: https://rl-conference.cc/RLC2025Awards.html
+    date: '2025-08-04'
+    awarder: Reinforcement Learning Conference
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Outstanding Paper Award in Tooling, Environments, and Evaluation for Reinforcement Learning at RLC 2025.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+I'm a recent graduate from __UCL__'s _Computational Statistics and Machine Learning program_. My research interests center around __Natural Language Processing__ (NLP), __Reinforcement Learning__ (RL) and __Multi-Agent Systems__. 
+Previously, I was a module leader and lecturer in NLP at EPF Engineering School and an independent researcher in RL. 
+I completed an MEng in Computer Engineering at EPF Engineering School, duringh which I worked as a Data Scientist at BMW and CEWE.
