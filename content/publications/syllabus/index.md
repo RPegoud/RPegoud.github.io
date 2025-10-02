@@ -1,5 +1,5 @@
 ---
-title: 'Syllabus: Portable Curricula for Reinforcement Learning Agents'
+title: 'Syllabus: Portable Curricula for Reinforcement Learning Agents (Outstanding Paper Award)'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
