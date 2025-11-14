@@ -59,7 +59,7 @@ education:
     date_start: 2024-09-28
     date_end: 2025-09-29
     summary: |
-      Thesis on __Memory Augmentation for Agentic Language Models__. Supervised by Prof. Tim Rocktäschel.
+      Thesis on __Memory Augmentation for Agentic Language Models__. Supervised by Prof. __Tim Rocktäschel__.
       Yearly Average: __78.5% (_Distinction_)__
     button:
       text: 'Read Thesis'
