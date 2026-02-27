@@ -23,18 +23,18 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Recent Graduate
+role: PhD Candidate (BMW ProMotion)
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University College London
-    url: https://www.ucl.ac.uk/
+  - name: TU Wien
+    url: https://www.tuwien.at/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:ryan.pegoud.24@ucl.ac.uk'
+    url: 'mailto:Ryan.Pegoud@bmw.de'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/Ryan_pgd
@@ -48,12 +48,19 @@ profiles:
   #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
+  - Autonomous Driving
   - Natural Language Processing
   - Reinforcement Learning
-  - Multi-Agent Systems
   - GPU Programming
 
 education:
+  - area: PhD (BMW ProMotion Program)
+    institution: TU Wien
+    date_start: 2026-02-02
+    date_end: 2029-02-01
+    summary: |
+      Research in efficient deployment of end-to-end autonomous driving models.
+
   - area: MSc Computational Statistics and Machine Learning
     institution: University College London
     date_start: 2024-09-28
@@ -166,6 +173,7 @@ awards:
       Outstanding Paper Award in Tooling, Environments, and Evaluation for Reinforcement Learning at RLC 2025.
 ---
 
-I'm a recent graduate from __UCL__'s _Computational Statistics and Machine Learning program_. My research interests center around __Natural Language Processing__ (NLP), __Reinforcement Learning__ (RL) and __Multi-Agent Systems__. 
-Previously, I was a module leader and lecturer in NLP at EPF Engineering School and an independent researcher in RL. 
-I completed an MEng in Computer Engineering at EPF Engineering School, duringh which I worked as a Data Scientist at BMW and CEWE.
+I'm currently pursuing a PhD as part of the BMW ProMotion program under the supervision of Dr. Nael Fasfous (BMW) and Prof. Dr. Daniel Müller-Gritschneder (TU Wien). My research focuses on the efficient deployment of end-to-end autonomous driving models, particularly on the compression of vision-language models and lightweight test-time adaptation.
+
+Previously, I graduated from UCL's computational statistics and machine learning MSc with and distinction and completed my thesis under the supervision of Prof. Tim Rocktäschel. I also hold an MEng in computer engineering from EPF Engineering School, where I later intervened as a lecturer and module leader for the natural language processing course.
+During my MEng, I completed two internships as a data scientist at BMW and CEWE. 
